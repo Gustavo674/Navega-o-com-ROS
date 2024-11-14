@@ -1,0 +1,13 @@
+# Ignorar pastas de build, instalação e logs
+build/
+install/
+log/
+
+# Ignorar arquivos do Python compilados
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar arquivos de configuração do editor
+.vscode/
+.idea/
