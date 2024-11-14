@@ -66,7 +66,7 @@ Esse comando abrirá a interface do labirinto em pygame, onde o robô (ponto azu
 Para rodar o código de navegação, execute o arquivo `reactive_navigation.py` na raiz do projeto:
 
 ```bash
-python3 src/cg/reactive_navigation.py
+python3 reactive_navigation.py
 ```
 
 ## Explicação do Código
