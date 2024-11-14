@@ -2,6 +2,7 @@
 build/
 install/
 log/
+cg/
 
 # Ignorar arquivos do Python compilados
 __pycache__/
