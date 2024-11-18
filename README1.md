@@ -69,6 +69,8 @@ Para rodar o código de navegação, execute o arquivo `reactive_navigation.py` 
 python3 reactive_navigation.py
 ```
 
+[Link para vídeo de demonstração!](https://drive.google.com/file/d/1p3DVk_nZahV6Vq28Sl8RpUL2HmM25mPu/view?usp=sharing)
+
 ## Explicação do Código
 
 O código foi desenvolvido para permitir que o robô navegue de forma reativa no labirinto. Aqui está um resumo das partes principais:
