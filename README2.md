@@ -71,6 +71,9 @@ Para rodar o código de navegação com mapa, execute o arquivo `map_navigation.
 python3 map_navigation.py
 ```
 
+[Link para vídeo de demonstração! Basta alterar o arquivo python do video pelo map_navigation.py](https://drive.google.com/file/d/1p3DVk_nZahV6Vq28Sl8RpUL2HmM25mPu/view?usp=sharing)
+
+
 ## Explicação do Código
 
 O código foi desenvolvido para permitir que o robô navegue de forma otimizada no labirinto com base no mapa. Aqui está um resumo das partes principais:
