@@ -1,0 +1,4 @@
+Invoking command in '/home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces -- -j5 -l5
+Invoked command in '/home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces -- -j5 -l5
+Invoking command in '/home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces
+Invoked command in '/home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces

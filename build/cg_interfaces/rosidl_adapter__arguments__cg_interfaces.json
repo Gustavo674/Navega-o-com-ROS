@@ -1,0 +1,7 @@
+{
+  "package_name": "cg_interfaces",
+  "non_idl_tuples": [
+    "/home/gustavo/Documents/Navega-o-com-ROS/cg/src/cg_interfaces:srv/MoveCmd.srv",
+    "/home/gustavo/Documents/Navega-o-com-ROS/cg/src/cg_interfaces:srv/GetMap.srv"
+  ]
+}

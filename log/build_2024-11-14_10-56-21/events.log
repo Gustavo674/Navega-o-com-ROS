@@ -1,0 +1,446 @@
+[0.000000] (-) TimerEvent: {}
+[0.002190] (cg_interfaces) JobQueued: {'identifier': 'cg_interfaces', 'dependencies': OrderedDict()}
+[0.002224] (cg) JobQueued: {'identifier': 'cg', 'dependencies': OrderedDict([('cg_interfaces', '/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces')])}
+[0.002238] (cg_interfaces) JobStarted: {'identifier': 'cg_interfaces'}
+[0.025509] (cg_interfaces) JobProgress: {'identifier': 'cg_interfaces', 'progress': 'cmake'}
+[0.025702] (cg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/gustavo/Documents/Navega-o-com-ROS/cg/src/cg_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces'], 'cwd': '/home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gustavo'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gustavo'), ('OLDPWD', '/home/gustavo/Documents/Navega-o-com-ROS'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '2606'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gustavo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gustavo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gustavo-VirtualBox:@/tmp/.ICE-unix/933,unix/gustavo-VirtualBox:/tmp/.ICE-unix/933'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4b983b1f_44d1_49d7_9924_15edae5b4d8c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S6JKX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.105306] (-) TimerEvent: {}
+[0.161593] (cg_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.209249] (-) TimerEvent: {}
+[0.216847] (cg_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.231613] (cg_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.310367] (cg_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.310532] (-) TimerEvent: {}
+[0.317172] (cg_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.318055] (cg_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.319829] (cg_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.324879] (cg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.403063] (cg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.409381] (cg_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.409733] (cg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.410123] (cg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.411331] (-) TimerEvent: {}
+[0.429948] (cg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.520249] (-) TimerEvent: {}
+[0.582735] (cg_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.620564] (-) TimerEvent: {}
+[0.716387] (cg_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.720794] (-) TimerEvent: {}
+[0.722792] (cg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.732177] (cg_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.794521] (cg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.821093] (-) TimerEvent: {}
+[0.921788] (-) TimerEvent: {}
+[1.026329] (-) TimerEvent: {}
+[1.087837] (cg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.127294] (-) TimerEvent: {}
+[1.236557] (-) TimerEvent: {}
+[1.252432] (cg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.337547] (-) TimerEvent: {}
+[1.438811] (-) TimerEvent: {}
+[1.462462] (cg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.487139] (cg_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.492196] (cg_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.519340] (cg_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.519652] (cg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.519736] (cg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.519791] (cg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.550407] (-) TimerEvent: {}
+[1.564793] (cg_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.628009] (cg_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.655894] (-) TimerEvent: {}
+[1.683098] (cg_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.689095] (cg_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces\n'}
+[1.701115] (cg_interfaces) CommandEnded: {'returncode': 0}
+[1.701729] (cg_interfaces) JobProgress: {'identifier': 'cg_interfaces', 'progress': 'build'}
+[1.702993] (cg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces', '--', '-j1', '-l1'], 'cwd': '/home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gustavo'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gustavo'), ('OLDPWD', '/home/gustavo/Documents/Navega-o-com-ROS'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '2606'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gustavo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gustavo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gustavo-VirtualBox:@/tmp/.ICE-unix/933,unix/gustavo-VirtualBox:/tmp/.ICE-unix/933'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4b983b1f_44d1_49d7_9924_15edae5b4d8c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S6JKX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.757005] (-) TimerEvent: {}
+[1.841826] (cg_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.859957] (-) TimerEvent: {}
+[1.963812] (-) TimerEvent: {}
+[2.069307] (-) TimerEvent: {}
+[2.171180] (-) TimerEvent: {}
+[2.188587] (cg_interfaces) StdoutLine: {'line': b'[  2%] Built target cg_interfaces__cpp\n'}
+[2.201578] (cg_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.272735] (-) TimerEvent: {}
+[2.373283] (-) TimerEvent: {}
+[2.392163] (cg_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/cg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cg_interfaces/srv/move_cmd__type_support.cpp.o\x1b[0m\n'}
+[2.507141] (-) TimerEvent: {}
+[2.679011] (-) TimerEvent: {}
+[2.788843] (-) TimerEvent: {}
+[2.941201] (-) TimerEvent: {}
+[3.020235] (cg_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/cg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cg_interfaces/srv/get_map__type_support.cpp.o\x1b[0m\n'}
+[3.042184] (-) TimerEvent: {}
+[3.143791] (-) TimerEvent: {}
+[3.248150] (-) TimerEvent: {}
+[3.349346] (-) TimerEvent: {}
+[3.366667] (cg_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libcg_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.417027] (cg_interfaces) StdoutLine: {'line': b'[ 12%] Built target cg_interfaces__rosidl_typesupport_cpp\n'}
+[3.429059] (cg_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.452182] (-) TimerEvent: {}
+[3.554135] (-) TimerEvent: {}
+[3.660263] (-) TimerEvent: {}
+[3.699912] (cg_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/cg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/cg_interfaces/srv/detail/move_cmd__functions.c.o\x1b[0m\n'}
+[3.767040] (-) TimerEvent: {}
+[3.800005] (cg_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/cg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/cg_interfaces/srv/detail/get_map__functions.c.o\x1b[0m\n'}
+[3.867648] (-) TimerEvent: {}
+[3.907470] (cg_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking C shared library libcg_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.970174] (-) TimerEvent: {}
+[4.001890] (cg_interfaces) StdoutLine: {'line': b'[ 23%] Built target cg_interfaces__rosidl_generator_c\n'}
+[4.029850] (cg_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.091076] (-) TimerEvent: {}
+[4.198750] (-) TimerEvent: {}
+[4.300938] (-) TimerEvent: {}
+[4.405239] (-) TimerEvent: {}
+[4.441877] (cg_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/cg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cg_interfaces/srv/detail/move_cmd__type_support_c.cpp.o\x1b[0m\n'}
+[4.505475] (-) TimerEvent: {}
+[4.608143] (-) TimerEvent: {}
+[4.708826] (-) TimerEvent: {}
+[4.810098] (-) TimerEvent: {}
+[4.856021] (cg_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/cg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cg_interfaces/srv/detail/get_map__type_support_c.cpp.o\x1b[0m\n'}
+[4.913659] (-) TimerEvent: {}
+[5.016978] (-) TimerEvent: {}
+[5.117465] (-) TimerEvent: {}
+[5.219113] (-) TimerEvent: {}
+[5.322021] (-) TimerEvent: {}
+[5.424074] (-) TimerEvent: {}
+[5.428090] (cg_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libcg_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.527050] (-) TimerEvent: {}
+[5.536669] (cg_interfaces) StdoutLine: {'line': b'[ 33%] Built target cg_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.548104] (cg_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.635598] (-) TimerEvent: {}
+[5.741296] (-) TimerEvent: {}
+[5.790122] (cg_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/cg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cg_interfaces/srv/detail/move_cmd__type_support.c.o\x1b[0m\n'}
+[5.828576] (cg_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/cg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cg_interfaces/srv/detail/get_map__type_support.c.o\x1b[0m\n'}
+[5.847088] (-) TimerEvent: {}
+[5.865135] (cg_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking C shared library libcg_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.901415] (cg_interfaces) StdoutLine: {'line': b'[ 43%] Built target cg_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.912047] (cg_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.952055] (-) TimerEvent: {}
+[6.059151] (-) TimerEvent: {}
+[6.120120] (cg_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/cg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/cg_interfaces/srv/move_cmd__type_support.cpp.o\x1b[0m\n'}
+[6.149575] (cg_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/cg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/cg_interfaces/srv/get_map__type_support.cpp.o\x1b[0m\n'}
+[6.164349] (-) TimerEvent: {}
+[6.176967] (cg_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libcg_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.222635] (cg_interfaces) StdoutLine: {'line': b'[ 53%] Built target cg_interfaces__rosidl_typesupport_c\n'}
+[6.251521] (cg_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.264444] (-) TimerEvent: {}
+[6.365521] (-) TimerEvent: {}
+[6.467718] (-) TimerEvent: {}
+[6.569151] (-) TimerEvent: {}
+[6.659951] (cg_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/cg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cg_interfaces/srv/detail/dds_fastrtps/move_cmd__type_support.cpp.o\x1b[0m\n'}
+[6.669299] (-) TimerEvent: {}
+[6.779016] (-) TimerEvent: {}
+[6.885006] (-) TimerEvent: {}
+[6.961503] (cg_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/cg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cg_interfaces/srv/detail/dds_fastrtps/get_map__type_support.cpp.o\x1b[0m\n'}
+[6.991223] (-) TimerEvent: {}
+[7.096452] (-) TimerEvent: {}
+[7.200254] (-) TimerEvent: {}
+[7.303343] (-) TimerEvent: {}
+[7.324765] (cg_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcg_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.390045] (cg_interfaces) StdoutLine: {'line': b'[ 64%] Built target cg_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.400016] (cg_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.412466] (-) TimerEvent: {}
+[7.520346] (-) TimerEvent: {}
+[7.619374] (cg_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/cg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cg_interfaces/srv/detail/move_cmd__type_support.cpp.o\x1b[0m\n'}
+[7.620432] (-) TimerEvent: {}
+[7.722091] (-) TimerEvent: {}
+[7.828054] (-) TimerEvent: {}
+[7.906006] (cg_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/cg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cg_interfaces/srv/detail/get_map__type_support.cpp.o\x1b[0m\n'}
+[7.932494] (-) TimerEvent: {}
+[8.039016] (-) TimerEvent: {}
+[8.145135] (-) TimerEvent: {}
+[8.216070] (cg_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcg_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.251075] (-) TimerEvent: {}
+[8.275416] (cg_interfaces) StdoutLine: {'line': b'[ 74%] Built target cg_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[8.299084] (cg_interfaces) StdoutLine: {'line': b'[ 74%] Built target cg_interfaces\n'}
+[8.325062] (cg_interfaces) StdoutLine: {'line': b'[ 74%] Built target ament_cmake_python_copy_cg_interfaces\n'}
+[8.351179] (-) TimerEvent: {}
+[8.451629] (-) TimerEvent: {}
+[8.552277] (-) TimerEvent: {}
+[8.652703] (-) TimerEvent: {}
+[8.738039] (cg_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[8.738159] (cg_interfaces) StdoutLine: {'line': b'creating cg_interfaces.egg-info\n'}
+[8.738193] (cg_interfaces) StdoutLine: {'line': b'writing cg_interfaces.egg-info/PKG-INFO\n'}
+[8.738219] (cg_interfaces) StdoutLine: {'line': b'writing dependency_links to cg_interfaces.egg-info/dependency_links.txt\n'}
+[8.738244] (cg_interfaces) StdoutLine: {'line': b'writing top-level names to cg_interfaces.egg-info/top_level.txt\n'}
+[8.738269] (cg_interfaces) StdoutLine: {'line': b"writing manifest file 'cg_interfaces.egg-info/SOURCES.txt'\n"}
+[8.740467] (cg_interfaces) StdoutLine: {'line': b"reading manifest file 'cg_interfaces.egg-info/SOURCES.txt'\n"}
+[8.740594] (cg_interfaces) StdoutLine: {'line': b"writing manifest file 'cg_interfaces.egg-info/SOURCES.txt'\n"}
+[8.754080] (-) TimerEvent: {}
+[8.762042] (cg_interfaces) StdoutLine: {'line': b'[ 74%] Built target ament_cmake_python_build_cg_interfaces_egg\n'}
+[8.787010] (cg_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.862035] (-) TimerEvent: {}
+[8.969213] (-) TimerEvent: {}
+[9.075344] (-) TimerEvent: {}
+[9.177327] (-) TimerEvent: {}
+[9.281205] (-) TimerEvent: {}
+[9.321370] (cg_interfaces) StdoutLine: {'line': b'[ 76%] Built target cg_interfaces__py\n'}
+[9.344000] (cg_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/cg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/cg_interfaces/srv/_move_cmd_s.c.o\x1b[0m\n'}
+[9.387258] (-) TimerEvent: {}
+[9.493773] (-) TimerEvent: {}
+[9.509699] (cg_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/cg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/cg_interfaces/srv/_get_map_s.c.o\x1b[0m\n'}
+[9.592043] (cg_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cg_interfaces/libcg_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[9.593971] (-) TimerEvent: {}
+[9.634578] (cg_interfaces) StdoutLine: {'line': b'[ 84%] Built target cg_interfaces__rosidl_generator_py\n'}
+[9.659439] (cg_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/cg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cg_interfaces/_cg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.695124] (-) TimerEvent: {}
+[9.740042] (cg_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cg_interfaces/cg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.773037] (cg_interfaces) StdoutLine: {'line': b'[ 89%] Built target cg_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.793002] (cg_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/cg_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cg_interfaces/_cg_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.795170] (-) TimerEvent: {}
+[9.869158] (cg_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cg_interfaces/cg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.898111] (-) TimerEvent: {}
+[9.900537] (cg_interfaces) StdoutLine: {'line': b'[ 94%] Built target cg_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[9.921538] (cg_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/cg_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cg_interfaces/_cg_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.998131] (cg_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cg_interfaces/cg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.998267] (-) TimerEvent: {}
+[10.033530] (cg_interfaces) StdoutLine: {'line': b'[100%] Built target cg_interfaces__rosidl_typesupport_c__pyext\n'}
+[10.044623] (cg_interfaces) CommandEnded: {'returncode': 0}
+[10.099628] (-) TimerEvent: {}
+[10.172962] (cg_interfaces) JobProgress: {'identifier': 'cg_interfaces', 'progress': 'install'}
+[10.181668] (cg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces'], 'cwd': '/home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gustavo'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/gustavo'), ('OLDPWD', '/home/gustavo/Documents/Navega-o-com-ROS'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '2606'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'gustavo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gustavo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gustavo-VirtualBox:@/tmp/.ICE-unix/933,unix/gustavo-VirtualBox:/tmp/.ICE-unix/933'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4b983b1f_44d1_49d7_9924_15edae5b4d8c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.S6JKX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.190698] (cg_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.191025] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/ament_index/resource_index/rosidl_interfaces/cg_interfaces\n'}
+[10.191350] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces\n'}
+[10.191405] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv\n'}
+[10.191508] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/move_cmd.h\n'}
+[10.191599] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail\n'}
+[10.191719] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__functions.c\n'}
+[10.191844] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__struct.h\n'}
+[10.191945] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__functions.c\n'}
+[10.192049] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__struct.h\n'}
+[10.192142] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__functions.h\n'}
+[10.192236] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.h\n'}
+[10.192330] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.h\n'}
+[10.192421] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__functions.h\n'}
+[10.192561] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/get_map.h\n'}
+[10.192650] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg\n'}
+[10.192691] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.192935] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/environment/library_path.sh\n'}
+[10.193137] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/environment/library_path.dsv\n'}
+[10.193229] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_generator_c.so\n'}
+[10.193568] (cg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_generator_c.so" to ""\n'}
+[10.193882] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces\n'}
+[10.193927] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv\n'}
+[10.193953] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail\n'}
+[10.193978] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[10.194066] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_fastrtps_c.h\n'}
+[10.194116] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg\n'}
+[10.194183] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.194314] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[10.194538] (cg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.194635] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces\n'}
+[10.194721] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv\n'}
+[10.194787] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail\n'}
+[10.194888] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_introspection_c.h\n'}
+[10.194961] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.c\n'}
+[10.195118] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_introspection_c.h\n'}
+[10.195222] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.c\n'}
+[10.195268] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg\n'}
+[10.195415] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.195471] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[10.195666] (cg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.195888] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_c.so\n'}
+[10.195945] (cg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[10.196023] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces\n'}
+[10.196092] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv\n'}
+[10.196156] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/get_map.hpp\n'}
+[10.196290] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/move_cmd.hpp\n'}
+[10.196336] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail\n'}
+[10.196450] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__builder.hpp\n'}
+[10.196494] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__builder.hpp\n'}
+[10.196584] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__traits.hpp\n'}
+[10.196728] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__traits.hpp\n'}
+[10.196773] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__struct.hpp\n'}
+[10.196956] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__struct.hpp\n'}
+[10.197021] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces\n'}
+[10.197093] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv\n'}
+[10.197152] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail\n'}
+[10.197219] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.197323] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.197423] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/dds_fastrtps\n'}
+[10.197511] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg\n'}
+[10.197576] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.197719] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.198162] (cg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.198279] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces\n'}
+[10.198323] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv\n'}
+[10.198380] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail\n'}
+[10.198448] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.cpp\n'}
+[10.198573] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.cpp\n'}
+[10.198678] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.198774] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.198909] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[10.199272] (cg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.199338] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_cpp.so\n'}
+[10.199534] (cg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[10.199629] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/environment/pythonpath.sh\n'}
+[10.203140] (-) TimerEvent: {}
+[10.203392] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/environment/pythonpath.dsv\n'}
+[10.203444] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces-0.0.0-py3.10.egg-info\n'}
+[10.203474] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[10.203502] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.203527] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[10.203552] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.203633] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces\n'}
+[10.203668] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv\n'}
+[10.203695] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/_get_map_s.c\n'}
+[10.203728] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/_move_cmd_s.c\n'}
+[10.203753] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/_move_cmd.py\n'}
+[10.203786] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/__init__.py\n'}
+[10.203810] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/_get_map.py\n'}
+[10.203834] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/_cg_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[10.203858] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.203882] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/libcg_interfaces__rosidl_generator_py.so\n'}
+[10.203906] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.203932] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.203958] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/_cg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.203982] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/_cg_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.204004] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/__init__.py\n'}
+[10.231359] (cg_interfaces) StdoutLine: {'line': b"Listing '/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces'...\n"}
+[10.231483] (cg_interfaces) StdoutLine: {'line': b"Compiling '/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/__init__.py'...\n"}
+[10.231514] (cg_interfaces) StdoutLine: {'line': b"Listing '/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv'...\n"}
+[10.235172] (cg_interfaces) StdoutLine: {'line': b"Compiling '/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/__init__.py'...\n"}
+[10.235304] (cg_interfaces) StdoutLine: {'line': b"Compiling '/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/_get_map.py'...\n"}
+[10.235340] (cg_interfaces) StdoutLine: {'line': b"Compiling '/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/_move_cmd.py'...\n"}
+[10.235725] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.236026] (cg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.241976] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.242117] (cg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.242151] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.242180] (cg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[10.242206] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_generator_py.so\n'}
+[10.243490] (cg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_generator_py.so" to ""\n'}
+[10.243564] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/srv/MoveCmd.idl\n'}
+[10.243594] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/srv/GetMap.idl\n'}
+[10.243621] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/srv/MoveCmd.srv\n'}
+[10.243645] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/srv/MoveCmd_Request.msg\n'}
+[10.243669] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/srv/MoveCmd_Response.msg\n'}
+[10.243693] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/srv/GetMap.srv\n'}
+[10.243715] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/srv/GetMap_Request.msg\n'}
+[10.243739] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/srv/GetMap_Response.msg\n'}
+[10.243763] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/ament_index/resource_index/package_run_dependencies/cg_interfaces\n'}
+[10.243788] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/ament_index/resource_index/parent_prefix_path/cg_interfaces\n'}
+[10.243812] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/environment/ament_prefix_path.sh\n'}
+[10.243836] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/environment/ament_prefix_path.dsv\n'}
+[10.243858] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/environment/path.sh\n'}
+[10.243880] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/environment/path.dsv\n'}
+[10.243902] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/local_setup.bash\n'}
+[10.243924] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/local_setup.sh\n'}
+[10.243946] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/local_setup.zsh\n'}
+[10.243968] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/local_setup.dsv\n'}
+[10.243995] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/package.dsv\n'}
+[10.244016] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/ament_index/resource_index/packages/cg_interfaces\n'}
+[10.244039] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_cExport.cmake\n'}
+[10.244062] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.244086] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.244108] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.244132] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.245302] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.245346] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[10.245373] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.245398] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_cppExport.cmake\n'}
+[10.245422] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.245450] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.245474] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.246189] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.246234] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[10.246262] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.246287] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_pyExport.cmake\n'}
+[10.246312] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.246336] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[10.246359] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.246383] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.246407] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.246430] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.246733] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.246771] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.246798] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfacesConfig.cmake\n'}
+[10.246824] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfacesConfig-version.cmake\n'}
+[10.246848] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/package.xml\n'}
+[10.246873] (cg_interfaces) CommandEnded: {'returncode': 0}
+[10.303785] (-) TimerEvent: {}
+[10.404076] (-) TimerEvent: {}
+[10.404580] (cg_interfaces) JobEnded: {'identifier': 'cg_interfaces', 'rc': 0}
+[10.406341] (cg) JobStarted: {'identifier': 'cg'}
+[10.508182] (-) TimerEvent: {}
+[10.610060] (-) TimerEvent: {}
+[10.710760] (-) TimerEvent: {}
+[10.811038] (-) TimerEvent: {}
+[10.883198] (cg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/cg', 'build', '--build-base', '/home/gustavo/Documents/Navega-o-com-ROS/build/cg/build', 'install', '--record', '/home/gustavo/Documents/Navega-o-com-ROS/build/cg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/gustavo/Documents/Navega-o-com-ROS/cg/src/cg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'gustavo', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/gustavo', 'OLDPWD': '/home/gustavo/Documents/Navega-o-com-ROS', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'SYSTEMD_EXEC_PID': '2606', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'gustavo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gustavo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/gustavo-VirtualBox:@/tmp/.ICE-unix/933,unix/gustavo-VirtualBox:/tmp/.ICE-unix/933', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4b983b1f_44d1_49d7_9924_15edae5b4d8c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.S6JKX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.138', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gustavo/Documents/Navega-o-com-ROS/build/cg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gustavo/Documents/Navega-o-com-ROS/build/cg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages:/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces'}, 'shell': False}
+[10.918666] (-) TimerEvent: {}
+[11.026098] (-) TimerEvent: {}
+[11.032496] (cg) StdoutLine: {'line': b'running egg_info\n'}
+[11.033054] (cg) StdoutLine: {'line': b'creating ../../../build/cg/cg.egg-info\n'}
+[11.033500] (cg) StdoutLine: {'line': b'writing ../../../build/cg/cg.egg-info/PKG-INFO\n'}
+[11.033765] (cg) StdoutLine: {'line': b'writing dependency_links to ../../../build/cg/cg.egg-info/dependency_links.txt\n'}
+[11.033943] (cg) StdoutLine: {'line': b'writing entry points to ../../../build/cg/cg.egg-info/entry_points.txt\n'}
+[11.034073] (cg) StdoutLine: {'line': b'writing requirements to ../../../build/cg/cg.egg-info/requires.txt\n'}
+[11.034173] (cg) StdoutLine: {'line': b'writing top-level names to ../../../build/cg/cg.egg-info/top_level.txt\n'}
+[11.034328] (cg) StdoutLine: {'line': b"writing manifest file '../../../build/cg/cg.egg-info/SOURCES.txt'\n"}
+[11.036407] (cg) StdoutLine: {'line': b"reading manifest file '../../../build/cg/cg.egg-info/SOURCES.txt'\n"}
+[11.036592] (cg) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[11.037832] (cg) StdoutLine: {'line': b"writing manifest file '../../../build/cg/cg.egg-info/SOURCES.txt'\n"}
+[11.037937] (cg) StdoutLine: {'line': b'running build\n'}
+[11.038004] (cg) StdoutLine: {'line': b'running build_py\n'}
+[11.038189] (cg) StdoutLine: {'line': b'creating /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build\n'}
+[11.038311] (cg) StdoutLine: {'line': b'creating /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib\n'}
+[11.038361] (cg) StdoutLine: {'line': b'creating /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg\n'}
+[11.038991] (cg) StdoutLine: {'line': b'copying cg/Editor.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg\n'}
+[11.039996] (cg) StdoutLine: {'line': b'copying cg/teste.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg\n'}
+[11.040611] (cg) StdoutLine: {'line': b'copying cg/Game.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg\n'}
+[11.041435] (cg) StdoutLine: {'line': b'copying cg/Robot.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg\n'}
+[11.042210] (cg) StdoutLine: {'line': b'copying cg/Maze.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg\n'}
+[11.042817] (cg) StdoutLine: {'line': b'copying cg/__init__.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg\n'}
+[11.043050] (cg) StdoutLine: {'line': b'copying cg/main.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg\n'}
+[11.043699] (cg) StdoutLine: {'line': b'creating /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils\n'}
+[11.044020] (cg) StdoutLine: {'line': b'copying cg/Utils/Screen.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils\n'}
+[11.044589] (cg) StdoutLine: {'line': b'copying cg/Utils/Grid.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils\n'}
+[11.045421] (cg) StdoutLine: {'line': b'copying cg/Utils/Finders.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils\n'}
+[11.046014] (cg) StdoutLine: {'line': b'copying cg/Utils/Csv.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils\n'}
+[11.047003] (cg) StdoutLine: {'line': b'copying cg/Utils/__init__.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils\n'}
+[11.047087] (cg) StdoutLine: {'line': b'running install\n'}
+[11.047369] (cg) StdoutLine: {'line': b'running install_lib\n'}
+[11.047941] (cg) StdoutLine: {'line': b'creating /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg\n'}
+[11.048065] (cg) StdoutLine: {'line': b'creating /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils\n'}
+[11.048380] (cg) StdoutLine: {'line': b'copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils/Screen.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils\n'}
+[11.048518] (cg) StdoutLine: {'line': b'copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils/Grid.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils\n'}
+[11.048802] (cg) StdoutLine: {'line': b'copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils/Finders.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils\n'}
+[11.049176] (cg) StdoutLine: {'line': b'copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils/Csv.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils\n'}
+[11.049226] (cg) StdoutLine: {'line': b'copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils/__init__.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils\n'}
+[11.049253] (cg) StdoutLine: {'line': b'copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Editor.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg\n'}
+[11.049279] (cg) StdoutLine: {'line': b'copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/teste.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg\n'}
+[11.049305] (cg) StdoutLine: {'line': b'copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Game.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg\n'}
+[11.049330] (cg) StdoutLine: {'line': b'copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Robot.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg\n'}
+[11.049432] (cg) StdoutLine: {'line': b'copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Maze.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg\n'}
+[11.049483] (cg) StdoutLine: {'line': b'copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/__init__.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg\n'}
+[11.049582] (cg) StdoutLine: {'line': b'copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/main.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg\n'}
+[11.049969] (cg) StdoutLine: {'line': b'byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils/Screen.py to Screen.cpython-310.pyc\n'}
+[11.050421] (cg) StdoutLine: {'line': b'byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils/Grid.py to Grid.cpython-310.pyc\n'}
+[11.050659] (cg) StdoutLine: {'line': b'byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils/Finders.py to Finders.cpython-310.pyc\n'}
+[11.050923] (cg) StdoutLine: {'line': b'byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils/Csv.py to Csv.cpython-310.pyc\n'}
+[11.051656] (cg) StdoutLine: {'line': b'byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils/__init__.py to __init__.cpython-310.pyc\n'}
+[11.051728] (cg) StdoutLine: {'line': b'byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Editor.py to Editor.cpython-310.pyc\n'}
+[11.051791] (cg) StdoutLine: {'line': b'byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/teste.py to teste.cpython-310.pyc\n'}
+[11.052078] (cg) StdoutLine: {'line': b'byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Game.py to Game.cpython-310.pyc\n'}
+[11.052672] (cg) StdoutLine: {'line': b'byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Robot.py to Robot.cpython-310.pyc\n'}
+[11.053067] (cg) StdoutLine: {'line': b'byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Maze.py to Maze.cpython-310.pyc\n'}
+[11.053612] (cg) StdoutLine: {'line': b'byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/__init__.py to __init__.cpython-310.pyc\n'}
+[11.053885] (cg) StdoutLine: {'line': b'byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/main.py to main.cpython-310.pyc\n'}
+[11.053966] (cg) StdoutLine: {'line': b'running install_data\n'}
+[11.054083] (cg) StdoutLine: {'line': b'creating /home/gustavo/Documents/Navega-o-com-ROS/install/cg/share/ament_index\n'}
+[11.054175] (cg) StdoutLine: {'line': b'creating /home/gustavo/Documents/Navega-o-com-ROS/install/cg/share/ament_index/resource_index\n'}
+[11.054250] (cg) StdoutLine: {'line': b'creating /home/gustavo/Documents/Navega-o-com-ROS/install/cg/share/ament_index/resource_index/packages\n'}
+[11.054398] (cg) StdoutLine: {'line': b'copying resource/cg -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/share/ament_index/resource_index/packages\n'}
+[11.054503] (cg) StdoutLine: {'line': b'copying package.xml -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/share/cg\n'}
+[11.055664] (cg) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.055756] (cg) StdoutLine: {'line': b'Copying ../../../build/cg/cg.egg-info to /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg-0.0.0-py3.10.egg-info\n'}
+[11.058111] (cg) StdoutLine: {'line': b'running install_scripts\n'}
+[11.071905] (cg) StdoutLine: {'line': b'Installing edit script to /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/cg\n'}
+[11.072024] (cg) StdoutLine: {'line': b'Installing maze script to /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/cg\n'}
+[11.072165] (cg) StdoutLine: {'line': b'Installing test script to /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/cg\n'}
+[11.072534] (cg) StdoutLine: {'line': b"writing list of installed files to '/home/gustavo/Documents/Navega-o-com-ROS/build/cg/install.log'\n"}
+[11.093318] (cg) CommandEnded: {'returncode': 0}
+[11.097086] (cg) JobEnded: {'identifier': 'cg', 'rc': 0}
+[11.097608] (-) EventReactorShutdown: {}

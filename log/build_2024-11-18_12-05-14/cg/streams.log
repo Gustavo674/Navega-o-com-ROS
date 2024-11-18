@@ -1,0 +1,24 @@
+[0.602s] Invoking command in '/home/gustavo/Documents/Navega-o-com-ROS/cg/src/cg': AMENT_PREFIX_PATH=/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces LD_LIBRARY_PATH=/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/Documents/Navega-o-com-ROS/build/cg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages:/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/cg build --build-base /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build install --record /home/gustavo/Documents/Navega-o-com-ROS/build/cg/install.log --single-version-externally-managed install_data
+[0.823s] running egg_info
+[0.823s] writing ../../../build/cg/cg.egg-info/PKG-INFO
+[0.823s] writing dependency_links to ../../../build/cg/cg.egg-info/dependency_links.txt
+[0.830s] writing entry points to ../../../build/cg/cg.egg-info/entry_points.txt
+[0.830s] writing requirements to ../../../build/cg/cg.egg-info/requires.txt
+[0.830s] writing top-level names to ../../../build/cg/cg.egg-info/top_level.txt
+[0.831s] reading manifest file '../../../build/cg/cg.egg-info/SOURCES.txt'
+[0.831s] adding license file 'LICENSE'
+[0.832s] writing manifest file '../../../build/cg/cg.egg-info/SOURCES.txt'
+[0.832s] running build
+[0.832s] running build_py
+[0.833s] running install
+[0.833s] running install_lib
+[0.841s] running install_data
+[0.842s] running install_egg_info
+[0.842s] removing '/home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.842s] Copying ../../../build/cg/cg.egg-info to /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg-0.0.0-py3.10.egg-info
+[0.842s] running install_scripts
+[0.867s] Installing edit script to /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/cg
+[0.868s] Installing maze script to /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/cg
+[0.868s] Installing test script to /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/cg
+[0.869s] writing list of installed files to '/home/gustavo/Documents/Navega-o-com-ROS/build/cg/install.log'
+[0.896s] Invoked command in '/home/gustavo/Documents/Navega-o-com-ROS/cg/src/cg' returned '0': AMENT_PREFIX_PATH=/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces LD_LIBRARY_PATH=/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/Documents/Navega-o-com-ROS/build/cg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages:/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/cg build --build-base /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build install --record /home/gustavo/Documents/Navega-o-com-ROS/build/cg/install.log --single-version-externally-managed install_data

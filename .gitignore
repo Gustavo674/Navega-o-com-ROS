@@ -1,8 +1,8 @@
 # Ignorar pastas de build, instalação e logs
-build/
-install/
-log/
-cg/
+#build/
+#install/
+#log/
+#cg/
 
 # Ignorar arquivos do Python compilados
 __pycache__/

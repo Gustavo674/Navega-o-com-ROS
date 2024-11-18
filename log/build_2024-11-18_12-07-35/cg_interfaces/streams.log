@@ -1,0 +1,169 @@
+[0.019s] Invoking command in '/home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces -- -j5 -l5
+[0.098s] [ 10%] Built target cg_interfaces__rosidl_generator_c
+[0.100s] [ 12%] Built target cg_interfaces__cpp
+[0.125s] [ 12%] Built target ament_cmake_python_copy_cg_interfaces
+[0.146s] [ 23%] Built target cg_interfaces__rosidl_typesupport_c
+[0.146s] [ 33%] Built target cg_interfaces__rosidl_typesupport_introspection_c
+[0.156s] [ 43%] Built target cg_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.156s] [ 53%] Built target cg_interfaces__rosidl_typesupport_fastrtps_c
+[0.170s] [ 64%] Built target cg_interfaces__rosidl_typesupport_introspection_cpp
+[0.191s] [ 74%] Built target cg_interfaces__rosidl_typesupport_cpp
+[0.241s] [ 74%] Built target cg_interfaces
+[0.279s] [ 76%] Built target cg_interfaces__py
+[0.325s] [ 84%] Built target cg_interfaces__rosidl_generator_py
+[0.374s] [ 89%] Built target cg_interfaces__rosidl_typesupport_c__pyext
+[0.374s] [ 94%] Built target cg_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.374s] [100%] Built target cg_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.439s] running egg_info
+[0.444s] writing cg_interfaces.egg-info/PKG-INFO
+[0.444s] writing dependency_links to cg_interfaces.egg-info/dependency_links.txt
+[0.444s] writing top-level names to cg_interfaces.egg-info/top_level.txt
+[0.448s] reading manifest file 'cg_interfaces.egg-info/SOURCES.txt'
+[0.455s] writing manifest file 'cg_interfaces.egg-info/SOURCES.txt'
+[0.485s] [100%] Built target ament_cmake_python_build_cg_interfaces_egg
+[0.505s] Invoked command in '/home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces -- -j5 -l5
+[0.782s] Invoking command in '/home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces
+[0.794s] -- Install configuration: ""
+[0.795s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/ament_index/resource_index/rosidl_interfaces/cg_interfaces
+[0.795s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces
+[0.795s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv
+[0.795s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/move_cmd.h
+[0.795s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail
+[0.796s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__functions.c
+[0.796s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__struct.h
+[0.796s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__functions.c
+[0.796s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__struct.h
+[0.796s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__functions.h
+[0.796s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.h
+[0.797s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.h
+[0.797s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__functions.h
+[0.797s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/get_map.h
+[0.798s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg
+[0.798s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.798s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/environment/library_path.sh
+[0.798s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/environment/library_path.dsv
+[0.798s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_generator_c.so
+[0.798s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces
+[0.798s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_fastrtps_c.h
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_fastrtps_c.h
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_introspection_c.h
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.c
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_introspection_c.h
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.c
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_introspection_c.so
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_c.so
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/get_map.hpp
+[0.799s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/move_cmd.hpp
+[0.804s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__builder.hpp
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__builder.hpp
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__traits.hpp
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__traits.hpp
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__struct.hpp
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__struct.hpp
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_fastrtps_cpp.hpp
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/dds_fastrtps
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.cpp
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.cpp
+[0.806s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_introspection_cpp.hpp
+[0.807s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_introspection_cpp.hpp
+[0.807s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.807s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_cpp.so
+[0.807s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/environment/pythonpath.sh
+[0.807s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/environment/pythonpath.dsv
+[0.807s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces-0.0.0-py3.10.egg-info
+[0.807s] -- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.807s] -- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.807s] -- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.807s] -- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.807s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces
+[0.807s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv
+[0.807s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/_get_map_s.c
+[0.807s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/_move_cmd_s.c
+[0.807s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/_move_cmd.py
+[0.807s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/__init__.py
+[0.807s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/_get_map.py
+[0.808s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/_cg_interfaces_s.ep.rosidl_typesupport_c.c
+[0.808s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.808s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/libcg_interfaces__rosidl_generator_py.so
+[0.808s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.808s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.808s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/_cg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.808s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/_cg_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.808s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/__init__.py
+[0.844s] Listing '/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces'...
+[0.844s] Listing '/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv'...
+[0.852s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.855s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.855s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.855s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib/libcg_interfaces__rosidl_generator_py.so
+[0.855s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/srv/MoveCmd.idl
+[0.855s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/srv/GetMap.idl
+[0.855s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/srv/MoveCmd.srv
+[0.855s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/srv/MoveCmd_Request.msg
+[0.861s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/srv/MoveCmd_Response.msg
+[0.863s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/srv/GetMap.srv
+[0.863s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/srv/GetMap_Request.msg
+[0.863s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/srv/GetMap_Response.msg
+[0.863s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/ament_index/resource_index/package_run_dependencies/cg_interfaces
+[0.863s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/ament_index/resource_index/parent_prefix_path/cg_interfaces
+[0.863s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/environment/ament_prefix_path.sh
+[0.864s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/environment/ament_prefix_path.dsv
+[0.864s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/environment/path.sh
+[0.864s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/environment/path.dsv
+[0.864s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/local_setup.bash
+[0.865s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/local_setup.sh
+[0.865s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/local_setup.zsh
+[0.865s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/local_setup.dsv
+[0.865s] -- Installing: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/package.dsv
+[0.865s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/ament_index/resource_index/packages/cg_interfaces
+[0.865s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_cExport.cmake
+[0.866s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.866s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.868s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.868s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.868s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.869s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cExport.cmake
+[0.869s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.869s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_cppExport.cmake
+[0.869s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.869s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.869s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.870s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.870s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cppExport.cmake
+[0.870s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.870s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_pyExport.cmake
+[0.871s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.873s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.873s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.874s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.874s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.874s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.874s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.874s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.874s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfacesConfig.cmake
+[0.874s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfacesConfig-version.cmake
+[0.874s] -- Up-to-date: /home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/share/cg_interfaces/package.xml
+[0.876s] Invoked command in '/home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/gustavo/Documents/Navega-o-com-ROS/build/cg_interfaces

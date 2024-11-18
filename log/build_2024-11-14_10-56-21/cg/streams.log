@@ -1,0 +1,72 @@
+[0.477s] Invoking command in '/home/gustavo/Documents/Navega-o-com-ROS/cg/src/cg': AMENT_PREFIX_PATH=/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces LD_LIBRARY_PATH=/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/Documents/Navega-o-com-ROS/build/cg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages:/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/cg build --build-base /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build install --record /home/gustavo/Documents/Navega-o-com-ROS/build/cg/install.log --single-version-externally-managed install_data
+[0.626s] running egg_info
+[0.627s] creating ../../../build/cg/cg.egg-info
+[0.627s] writing ../../../build/cg/cg.egg-info/PKG-INFO
+[0.627s] writing dependency_links to ../../../build/cg/cg.egg-info/dependency_links.txt
+[0.628s] writing entry points to ../../../build/cg/cg.egg-info/entry_points.txt
+[0.628s] writing requirements to ../../../build/cg/cg.egg-info/requires.txt
+[0.628s] writing top-level names to ../../../build/cg/cg.egg-info/top_level.txt
+[0.628s] writing manifest file '../../../build/cg/cg.egg-info/SOURCES.txt'
+[0.630s] reading manifest file '../../../build/cg/cg.egg-info/SOURCES.txt'
+[0.630s] adding license file 'LICENSE'
+[0.632s] writing manifest file '../../../build/cg/cg.egg-info/SOURCES.txt'
+[0.632s] running build
+[0.632s] running build_py
+[0.632s] creating /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build
+[0.632s] creating /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib
+[0.632s] creating /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg
+[0.633s] copying cg/Editor.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg
+[0.634s] copying cg/teste.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg
+[0.634s] copying cg/Game.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg
+[0.635s] copying cg/Robot.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg
+[0.636s] copying cg/Maze.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg
+[0.636s] copying cg/__init__.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg
+[0.637s] copying cg/main.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg
+[0.637s] creating /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils
+[0.638s] copying cg/Utils/Screen.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils
+[0.638s] copying cg/Utils/Grid.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils
+[0.639s] copying cg/Utils/Finders.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils
+[0.640s] copying cg/Utils/Csv.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils
+[0.641s] copying cg/Utils/__init__.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils
+[0.641s] running install
+[0.641s] running install_lib
+[0.642s] creating /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg
+[0.642s] creating /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils
+[0.642s] copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils/Screen.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils
+[0.642s] copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils/Grid.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils
+[0.642s] copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils/Finders.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils
+[0.643s] copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils/Csv.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils
+[0.643s] copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Utils/__init__.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils
+[0.643s] copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Editor.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg
+[0.643s] copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/teste.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg
+[0.643s] copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Game.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg
+[0.643s] copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Robot.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg
+[0.643s] copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/Maze.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg
+[0.643s] copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/__init__.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg
+[0.643s] copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/main.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg
+[0.644s] byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils/Screen.py to Screen.cpython-310.pyc
+[0.644s] byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils/Grid.py to Grid.cpython-310.pyc
+[0.644s] byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils/Finders.py to Finders.cpython-310.pyc
+[0.645s] byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils/Csv.py to Csv.cpython-310.pyc
+[0.645s] byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Utils/__init__.py to __init__.cpython-310.pyc
+[0.645s] byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Editor.py to Editor.cpython-310.pyc
+[0.645s] byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/teste.py to teste.cpython-310.pyc
+[0.646s] byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Game.py to Game.cpython-310.pyc
+[0.646s] byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Robot.py to Robot.cpython-310.pyc
+[0.647s] byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/Maze.py to Maze.cpython-310.pyc
+[0.647s] byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/__init__.py to __init__.cpython-310.pyc
+[0.648s] byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/main.py to main.cpython-310.pyc
+[0.648s] running install_data
+[0.648s] creating /home/gustavo/Documents/Navega-o-com-ROS/install/cg/share/ament_index
+[0.648s] creating /home/gustavo/Documents/Navega-o-com-ROS/install/cg/share/ament_index/resource_index
+[0.648s] creating /home/gustavo/Documents/Navega-o-com-ROS/install/cg/share/ament_index/resource_index/packages
+[0.648s] copying resource/cg -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/share/ament_index/resource_index/packages
+[0.648s] copying package.xml -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/share/cg
+[0.649s] running install_egg_info
+[0.649s] Copying ../../../build/cg/cg.egg-info to /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg-0.0.0-py3.10.egg-info
+[0.652s] running install_scripts
+[0.666s] Installing edit script to /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/cg
+[0.666s] Installing maze script to /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/cg
+[0.666s] Installing test script to /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/cg
+[0.666s] writing list of installed files to '/home/gustavo/Documents/Navega-o-com-ROS/build/cg/install.log'
+[0.687s] Invoked command in '/home/gustavo/Documents/Navega-o-com-ROS/cg/src/cg' returned '0': AMENT_PREFIX_PATH=/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces LD_LIBRARY_PATH=/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gustavo/Documents/Navega-o-com-ROS/build/cg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages:/home/gustavo/Documents/Navega-o-com-ROS/install/cg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/cg build --build-base /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build install --record /home/gustavo/Documents/Navega-o-com-ROS/build/cg/install.log --single-version-externally-managed install_data
