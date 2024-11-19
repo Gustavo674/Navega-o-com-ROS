@@ -1,0 +1,33 @@
+[0.495s] Invoking command in '/home/gustavo/Documents/Navega-o-com-ROS/src/cg': PYTHONPATH=/home/gustavo/Documents/Navega-o-com-ROS/build/cg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cg build --build-base /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build install --record /home/gustavo/Documents/Navega-o-com-ROS/build/cg/install.log --single-version-externally-managed install_data
+[0.653s] running egg_info
+[0.653s] writing ../../build/cg/cg.egg-info/PKG-INFO
+[0.654s] writing dependency_links to ../../build/cg/cg.egg-info/dependency_links.txt
+[0.654s] writing entry points to ../../build/cg/cg.egg-info/entry_points.txt
+[0.654s] writing requirements to ../../build/cg/cg.egg-info/requires.txt
+[0.654s] writing top-level names to ../../build/cg/cg.egg-info/top_level.txt
+[0.656s] reading manifest file '../../build/cg/cg.egg-info/SOURCES.txt'
+[0.658s] adding license file 'LICENSE'
+[0.658s] writing manifest file '../../build/cg/cg.egg-info/SOURCES.txt'
+[0.658s] running build
+[0.658s] running build_py
+[0.658s] copying cg/map_navigation.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg
+[0.658s] copying cg/reactive_navigation.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg
+[0.658s] copying cg/__init__.py -> /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg
+[0.658s] running install
+[0.659s] running install_lib
+[0.659s] copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/map_navigation.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg
+[0.659s] copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/reactive_navigation.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg
+[0.660s] copying /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build/lib/cg/__init__.py -> /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg
+[0.660s] byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/map_navigation.py to map_navigation.cpython-310.pyc
+[0.661s] byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/reactive_navigation.py to reactive_navigation.cpython-310.pyc
+[0.662s] byte-compiling /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg/__init__.py to __init__.cpython-310.pyc
+[0.663s] running install_data
+[0.663s] running install_egg_info
+[0.664s] removing '/home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.666s] Copying ../../build/cg/cg.egg-info to /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages/cg-0.0.0-py3.10.egg-info
+[0.668s] running install_scripts
+[0.683s] Installing edit script to /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/cg
+[0.683s] Installing maze script to /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/cg
+[0.684s] Installing test script to /home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/cg
+[0.685s] writing list of installed files to '/home/gustavo/Documents/Navega-o-com-ROS/build/cg/install.log'
+[0.703s] Invoked command in '/home/gustavo/Documents/Navega-o-com-ROS/src/cg' returned '0': PYTHONPATH=/home/gustavo/Documents/Navega-o-com-ROS/build/cg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gustavo/Documents/Navega-o-com-ROS/install/cg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cg build --build-base /home/gustavo/Documents/Navega-o-com-ROS/build/cg/build install --record /home/gustavo/Documents/Navega-o-com-ROS/build/cg/install.log --single-version-externally-managed install_data

@@ -7,12 +7,16 @@
   <maintainer email="rodrigo.nicola0@gmail.com">rnicola</maintainer>
   <license>MIT</license>
 
+  <!-- Dependências de Execução -->
   <exec_depend>rclpy</exec_depend>
   <exec_depend>cg_interfaces</exec_depend>
+  <exec_depend>pygame</exec_depend> <!-- Exemplo de dependência adicional -->
 
+  <!-- Dependências de Construção -->
   <build_depend>rclpy</build_depend>
   <build_depend>cg_interfaces</build_depend>
 
+  <!-- Dependências de Teste -->
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
