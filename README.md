@@ -78,6 +78,10 @@ Para executar o algoritmo de navegação com planejamento, na raiz do projeto:
 ros2 run cg map_navigation
 ```
 
+#### Vídeo de Funcionamento
+
+[Link do vídeo.](https://drive.google.com/file/d/18KmAnTcKZGAaY06EOfFtwF09byLgYBER/view?usp=sharing)
+
 ## Explicação dos Algoritmos
 
 ### Navegação Reativa
